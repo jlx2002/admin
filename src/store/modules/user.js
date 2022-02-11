@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-export default {
-    namespaced: true,
-    state: {},
-    mutations: {},
-    actions: {}
-=======
 import { getToken, setToken, removeToken } from '@/utils/auth'
 import { login } from '@/api/user'
 // 状态
@@ -34,5 +27,4 @@ export default {
     state,
     mutations,
     actions
->>>>>>> 8625228 (1)
 }
